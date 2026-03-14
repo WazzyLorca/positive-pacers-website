@@ -1,0 +1,55 @@
+/* _global.scss */
+$primary-color: #00BCD4; /* Teal/Cyan */
+$secondary-color: #003366; /* Navy Blue */
+$accent-color: #FF5100; /* Keeping original orange as an accent for now */
+$light-gray: #F2F3F8;
+$dark-gray: #848484;
+
+html {
+  line-height: 1.15;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+    color: #333; // Default text color
+  position: relative;
+  overflow-x: hidden;
+}
+section {
+  padding: 90px 15px;
+}
+.content {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  font-size: 18px;
+  margin: 5px 0 10px;
+}
+.bold {
+  font-weight: 700;
+}
+.orange {
+  color: #FF5100
+}
+h2 {
+  font-size: 36px;
+  margin: 5px 0 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 70px;
+    color: $secondary-color; // Use club navy for main headings
+    color: #848484;
+    font-weight: 700;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.center {
+  text-align: center;
+}
