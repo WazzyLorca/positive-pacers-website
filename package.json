@@ -4,6 +4,7 @@
   "description": "club website",
   "main": "index.js",
   "scripts": {
+    "build": "sass sass/style.scss sass/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
